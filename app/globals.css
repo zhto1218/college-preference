@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    font-family: -apple-system, BlinkMacSystemFont, 'PingFang SC', 'Hiragino Sans GB',
+      'Microsoft YaHei', 'Helvetica Neue', Arial, sans-serif;
+  }
+  * {
+    -webkit-tap-highlight-color: transparent;
+  }
+}

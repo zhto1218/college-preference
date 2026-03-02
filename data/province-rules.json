@@ -1,0 +1,374 @@
+{
+  "山东": {
+    "key": "shandong",
+    "mode": "专业（专业类）+学校 平行志愿",
+    "scoreSystem": "3+3 等级赋分",
+    "volunteerCount": 96,
+    "subjectTypes": {
+      "science": { "label": "物理类", "sublabel": "物理方向（含物理）", "emoji": "🔬" },
+      "arts": { "label": "历史类", "sublabel": "历史方向（含历史）", "emoji": "📖" }
+    },
+    "targetCities": ["济南", "青岛", "北京", "天津", "上海", "南京", "武汉", "广州", "杭州", "成都", "不限"],
+    "tip": "山东新高考：6选3等级赋分，最多填96个「专业+学校」组合志愿，录取遵循分数优先原则"
+  },
+  "河北": {
+    "key": "hebei",
+    "mode": "院校+专业 平行志愿",
+    "scoreSystem": "3+1+2",
+    "volunteerCount": 96,
+    "subjectTypes": {
+      "science": { "label": "物理类", "sublabel": "首选物理", "emoji": "🔬" },
+      "arts": { "label": "历史类", "sublabel": "首选历史", "emoji": "📖" }
+    },
+    "targetCities": ["石家庄", "保定", "北京", "天津", "上海", "南京", "武汉", "广州", "杭州", "成都", "不限"],
+    "tip": "河北新高考：3+1+2模式，首选物理/历史+再选2科，本科最多填96个志愿，分数优先一轮投档"
+  },
+  "北京": {
+    "key": "beijing",
+    "mode": "院校+专业组 平行志愿",
+    "scoreSystem": "3+3 等级赋分",
+    "volunteerCount": 30,
+    "subjectTypes": {
+      "science": { "label": "物理类", "sublabel": "物理方向（含物理）", "emoji": "🔬" },
+      "arts": { "label": "历史类", "sublabel": "历史方向（含历史）", "emoji": "📖" }
+    },
+    "targetCities": ["北京", "上海", "广州", "杭州", "南京", "武汉", "成都", "不限"],
+    "tip": "北京新高考：3+3赋分制，最多填30个「院校+专业组」志愿，综合评价招生比例较高"
+  },
+  "天津": {
+    "key": "tianjin",
+    "mode": "院校+专业组 平行志愿",
+    "scoreSystem": "3+3 等级赋分",
+    "volunteerCount": 50,
+    "subjectTypes": {
+      "science": { "label": "物理类", "sublabel": "物理方向（含物理）", "emoji": "🔬" },
+      "arts": { "label": "历史类", "sublabel": "历史方向（含历史）", "emoji": "📖" }
+    },
+    "targetCities": ["天津", "北京", "上海", "南京", "武汉", "广州", "杭州", "成都", "不限"],
+    "tip": "天津新高考：3+3赋分制，最多填50个「院校+专业组」志愿，本市高校录取优惠政策较多"
+  },
+  "上海": {
+    "key": "shanghai",
+    "mode": "院校+专业组 平行志愿",
+    "scoreSystem": "3+3 等级赋分",
+    "volunteerCount": 24,
+    "subjectTypes": {
+      "science": { "label": "物理类", "sublabel": "物理方向（含物理）", "emoji": "🔬" },
+      "arts": { "label": "历史类", "sublabel": "历史方向（含历史）", "emoji": "📖" }
+    },
+    "targetCities": ["上海", "北京", "广州", "杭州", "南京", "武汉", "成都", "不限"],
+    "tip": "上海新高考：3+3赋分制，最多填24个「院校+专业组」志愿，综合素质评价影响录取"
+  },
+  "重庆": {
+    "key": "chongqing",
+    "mode": "院校+专业 平行志愿",
+    "scoreSystem": "3+1+2",
+    "volunteerCount": 96,
+    "subjectTypes": {
+      "science": { "label": "物理类", "sublabel": "首选物理", "emoji": "🔬" },
+      "arts": { "label": "历史类", "sublabel": "首选历史", "emoji": "📖" }
+    },
+    "targetCities": ["重庆", "成都", "北京", "上海", "武汉", "广州", "南京", "杭州", "不限"],
+    "tip": "重庆新高考：3+1+2模式，最多填96个志愿，分数优先平行志愿录取"
+  },
+  "浙江": {
+    "key": "zhejiang",
+    "mode": "专业+院校 平行志愿",
+    "scoreSystem": "3+3 等级赋分",
+    "volunteerCount": 80,
+    "subjectTypes": {
+      "science": { "label": "物理类", "sublabel": "含物理方向", "emoji": "🔬" },
+      "arts": { "label": "历史类", "sublabel": "含历史方向", "emoji": "📖" }
+    },
+    "targetCities": ["杭州", "宁波", "北京", "上海", "南京", "广州", "武汉", "成都", "不限"],
+    "tip": "浙江新高考：3+3赋分制，最多填80个「专业+院校」志愿，选科自由度最高"
+  },
+  "江苏": {
+    "key": "jiangsu",
+    "mode": "院校+专业组 平行志愿",
+    "scoreSystem": "3+1+2",
+    "volunteerCount": 80,
+    "subjectTypes": {
+      "science": { "label": "物理类", "sublabel": "首选物理", "emoji": "🔬" },
+      "arts": { "label": "历史类", "sublabel": "首选历史", "emoji": "📖" }
+    },
+    "targetCities": ["南京", "苏州", "北京", "上海", "广州", "杭州", "武汉", "成都", "不限"],
+    "tip": "江苏新高考：3+1+2模式，最多填80个「院校+专业组」志愿，竞争激烈，注意赋分折算"
+  },
+  "广东": {
+    "key": "guangdong",
+    "mode": "院校+专业 平行志愿",
+    "scoreSystem": "3+1+2",
+    "volunteerCount": 80,
+    "subjectTypes": {
+      "science": { "label": "物理类", "sublabel": "首选物理", "emoji": "🔬" },
+      "arts": { "label": "历史类", "sublabel": "首选历史", "emoji": "📖" }
+    },
+    "targetCities": ["广州", "深圳", "北京", "上海", "南京", "武汉", "杭州", "成都", "不限"],
+    "tip": "广东新高考：3+1+2模式，最多填80个志愿，一本线约为全省前35%，珠三角院校竞争尤为激烈"
+  },
+  "福建": {
+    "key": "fujian",
+    "mode": "院校+专业 平行志愿",
+    "scoreSystem": "3+1+2",
+    "volunteerCount": 80,
+    "subjectTypes": {
+      "science": { "label": "物理类", "sublabel": "首选物理", "emoji": "🔬" },
+      "arts": { "label": "历史类", "sublabel": "首选历史", "emoji": "📖" }
+    },
+    "targetCities": ["福州", "厦门", "北京", "上海", "广州", "南京", "杭州", "武汉", "不限"],
+    "tip": "福建新高考：3+1+2模式，最多填80个志愿，平行志愿分数优先"
+  },
+  "湖北": {
+    "key": "hubei",
+    "mode": "院校+专业 平行志愿",
+    "scoreSystem": "3+1+2",
+    "volunteerCount": 96,
+    "subjectTypes": {
+      "science": { "label": "物理类", "sublabel": "首选物理", "emoji": "🔬" },
+      "arts": { "label": "历史类", "sublabel": "首选历史", "emoji": "📖" }
+    },
+    "targetCities": ["武汉", "北京", "上海", "广州", "南京", "杭州", "成都", "不限"],
+    "tip": "湖北新高考：3+1+2模式，最多填96个志愿，武汉高校资源丰富，录取竞争激烈"
+  },
+  "湖南": {
+    "key": "hunan",
+    "mode": "院校+专业 平行志愿",
+    "scoreSystem": "3+1+2",
+    "volunteerCount": 80,
+    "subjectTypes": {
+      "science": { "label": "物理类", "sublabel": "首选物理", "emoji": "🔬" },
+      "arts": { "label": "历史类", "sublabel": "首选历史", "emoji": "📖" }
+    },
+    "targetCities": ["长沙", "北京", "上海", "广州", "南京", "武汉", "杭州", "成都", "不限"],
+    "tip": "湖南新高考：3+1+2模式，最多填80个志愿，分数优先录取，本省高校竞争较强"
+  },
+  "辽宁": {
+    "key": "liaoning",
+    "mode": "专业+院校 平行志愿",
+    "scoreSystem": "3+1+2",
+    "volunteerCount": 112,
+    "subjectTypes": {
+      "science": { "label": "物理类", "sublabel": "首选物理", "emoji": "🔬" },
+      "arts": { "label": "历史类", "sublabel": "首选历史", "emoji": "📖" }
+    },
+    "targetCities": ["沈阳", "大连", "北京", "天津", "上海", "广州", "南京", "武汉", "不限"],
+    "tip": "辽宁新高考：3+1+2模式，最多填112个「专业+院校」志愿，志愿数量全国最多"
+  },
+  "安徽": {
+    "key": "anhui",
+    "mode": "专业+院校 平行志愿",
+    "scoreSystem": "3+1+2",
+    "volunteerCount": 96,
+    "subjectTypes": {
+      "science": { "label": "物理类", "sublabel": "首选物理", "emoji": "🔬" },
+      "arts": { "label": "历史类", "sublabel": "首选历史", "emoji": "📖" }
+    },
+    "targetCities": ["合肥", "南京", "北京", "上海", "武汉", "广州", "杭州", "成都", "不限"],
+    "tip": "安徽新高考：3+1+2模式（2024年起），最多填96个志愿，靠近长三角就业圈"
+  },
+  "吉林": {
+    "key": "jilin",
+    "mode": "院校+专业 平行志愿",
+    "scoreSystem": "3+1+2",
+    "volunteerCount": 96,
+    "subjectTypes": {
+      "science": { "label": "物理类", "sublabel": "首选物理", "emoji": "🔬" },
+      "arts": { "label": "历史类", "sublabel": "首选历史", "emoji": "📖" }
+    },
+    "targetCities": ["长春", "沈阳", "北京", "天津", "上海", "广州", "南京", "不限"],
+    "tip": "吉林新高考：3+1+2模式（2024年起），最多填96个志愿，生源外流压力大，注意就业地选择"
+  },
+  "黑龙江": {
+    "key": "heilongjiang",
+    "mode": "院校+专业 平行志愿",
+    "scoreSystem": "3+1+2",
+    "volunteerCount": 96,
+    "subjectTypes": {
+      "science": { "label": "物理类", "sublabel": "首选物理", "emoji": "🔬" },
+      "arts": { "label": "历史类", "sublabel": "首选历史", "emoji": "📖" }
+    },
+    "targetCities": ["哈尔滨", "长春", "沈阳", "北京", "上海", "广州", "南京", "不限"],
+    "tip": "黑龙江新高考：3+1+2模式（2024年起），最多填96个志愿，东北高校录取分相对较低"
+  },
+  "贵州": {
+    "key": "guizhou",
+    "mode": "院校+专业 平行志愿",
+    "scoreSystem": "3+1+2",
+    "volunteerCount": 96,
+    "subjectTypes": {
+      "science": { "label": "物理类", "sublabel": "首选物理", "emoji": "🔬" },
+      "arts": { "label": "历史类", "sublabel": "首选历史", "emoji": "📖" }
+    },
+    "targetCities": ["贵阳", "重庆", "成都", "北京", "上海", "广州", "南京", "武汉", "不限"],
+    "tip": "贵州新高考：3+1+2模式（2024年起），最多填96个志愿，西南地区高校录取性价比较高"
+  },
+  "甘肃": {
+    "key": "gansu",
+    "mode": "院校+专业 平行志愿",
+    "scoreSystem": "3+1+2",
+    "volunteerCount": 96,
+    "subjectTypes": {
+      "science": { "label": "物理类", "sublabel": "首选物理", "emoji": "🔬" },
+      "arts": { "label": "历史类", "sublabel": "首选历史", "emoji": "📖" }
+    },
+    "targetCities": ["兰州", "西安", "北京", "成都", "上海", "广州", "南京", "不限"],
+    "tip": "甘肃新高考：3+1+2模式（2024年起），最多填96个志愿，西北地区考生外出求学比例高"
+  },
+  "广西": {
+    "key": "guangxi",
+    "mode": "院校+专业 平行志愿",
+    "scoreSystem": "3+1+2",
+    "volunteerCount": 96,
+    "subjectTypes": {
+      "science": { "label": "物理类", "sublabel": "首选物理", "emoji": "🔬" },
+      "arts": { "label": "历史类", "sublabel": "首选历史", "emoji": "📖" }
+    },
+    "targetCities": ["南宁", "广州", "深圳", "北京", "上海", "武汉", "成都", "不限"],
+    "tip": "广西新高考：3+1+2模式（2024年起），最多填96个志愿，与广东就业圈联系紧密"
+  },
+  "海南": {
+    "key": "hainan",
+    "mode": "专业+院校 平行志愿",
+    "scoreSystem": "3+3 等级赋分",
+    "volunteerCount": 6,
+    "subjectTypes": {
+      "science": { "label": "物理类", "sublabel": "含物理方向", "emoji": "🔬" },
+      "arts": { "label": "历史类", "sublabel": "含历史方向", "emoji": "📖" }
+    },
+    "targetCities": ["海口", "广州", "北京", "上海", "南京", "武汉", "杭州", "不限"],
+    "tip": "海南新高考：3+3赋分制，每批次仅填6个「专业+院校」志愿，自由贸易港政策带来更多就业机会"
+  },
+  "河南": {
+    "key": "henan",
+    "mode": "院校+专业 平行志愿",
+    "scoreSystem": "传统文理分科",
+    "volunteerCount": 6,
+    "subjectTypes": {
+      "science": { "label": "理科", "sublabel": "理工类", "emoji": "🔬" },
+      "arts": { "label": "文科", "sublabel": "文史类", "emoji": "📖" }
+    },
+    "targetCities": ["郑州", "北京", "上海", "武汉", "南京", "广州", "杭州", "西安", "不限"],
+    "tip": "河南高考：传统文理分科，考生人数全国最多，竞争激烈，每批次填6个平行志愿"
+  },
+  "山西": {
+    "key": "shanxi",
+    "mode": "院校+专业 平行志愿",
+    "scoreSystem": "传统文理分科",
+    "volunteerCount": 6,
+    "subjectTypes": {
+      "science": { "label": "理科", "sublabel": "理工类", "emoji": "🔬" },
+      "arts": { "label": "文科", "sublabel": "文史类", "emoji": "📖" }
+    },
+    "targetCities": ["太原", "北京", "天津", "上海", "南京", "西安", "武汉", "广州", "不限"],
+    "tip": "山西高考：传统文理分科，平行志愿每批次填6所院校，注意本科线划定"
+  },
+  "内蒙古": {
+    "key": "neimenggu",
+    "mode": "院校+专业 平行志愿",
+    "scoreSystem": "传统文理分科",
+    "volunteerCount": 6,
+    "subjectTypes": {
+      "science": { "label": "理科", "sublabel": "理工类", "emoji": "🔬" },
+      "arts": { "label": "文科", "sublabel": "文史类", "emoji": "📖" }
+    },
+    "targetCities": ["呼和浩特", "北京", "天津", "沈阳", "上海", "广州", "不限"],
+    "tip": "内蒙古高考：传统文理分科，招生计划中少数民族预科名额多，注意加分政策"
+  },
+  "陕西": {
+    "key": "shaanxi",
+    "mode": "院校+专业 平行志愿",
+    "scoreSystem": "传统文理分科",
+    "volunteerCount": 6,
+    "subjectTypes": {
+      "science": { "label": "理科", "sublabel": "理工类", "emoji": "🔬" },
+      "arts": { "label": "文科", "sublabel": "文史类", "emoji": "📖" }
+    },
+    "targetCities": ["西安", "北京", "上海", "成都", "武汉", "广州", "南京", "不限"],
+    "tip": "陕西高考：传统文理分科，西安高校密集，本省院校选择多样"
+  },
+  "四川": {
+    "key": "sichuan",
+    "mode": "院校+专业 平行志愿",
+    "scoreSystem": "传统文理分科",
+    "volunteerCount": 6,
+    "subjectTypes": {
+      "science": { "label": "理科", "sublabel": "理工类", "emoji": "🔬" },
+      "arts": { "label": "文科", "sublabel": "文史类", "emoji": "📖" }
+    },
+    "targetCities": ["成都", "重庆", "北京", "上海", "广州", "武汉", "南京", "杭州", "不限"],
+    "tip": "四川高考：传统文理分科，成渝地区双城经济圈，成都就业机会丰富"
+  },
+  "云南": {
+    "key": "yunnan",
+    "mode": "院校+专业 平行志愿",
+    "scoreSystem": "传统文理分科",
+    "volunteerCount": 6,
+    "subjectTypes": {
+      "science": { "label": "理科", "sublabel": "理工类", "emoji": "🔬" },
+      "arts": { "label": "文科", "sublabel": "文史类", "emoji": "📖" }
+    },
+    "targetCities": ["昆明", "成都", "重庆", "北京", "广州", "上海", "武汉", "不限"],
+    "tip": "云南高考：传统文理分科，少数民族加分政策多，东南亚区位优势带来独特就业机会"
+  },
+  "江西": {
+    "key": "jiangxi",
+    "mode": "院校+专业 平行志愿",
+    "scoreSystem": "传统文理分科",
+    "volunteerCount": 6,
+    "subjectTypes": {
+      "science": { "label": "理科", "sublabel": "理工类", "emoji": "🔬" },
+      "arts": { "label": "文科", "sublabel": "文史类", "emoji": "📖" }
+    },
+    "targetCities": ["南昌", "南京", "上海", "广州", "武汉", "杭州", "北京", "不限"],
+    "tip": "江西高考：传统文理分科，毗邻长三角珠三角，就业优势明显"
+  },
+  "新疆": {
+    "key": "xinjiang",
+    "mode": "院校+专业 平行志愿",
+    "scoreSystem": "传统文理分科",
+    "volunteerCount": 6,
+    "subjectTypes": {
+      "science": { "label": "理科", "sublabel": "理工类", "emoji": "🔬" },
+      "arts": { "label": "文科", "sublabel": "文史类", "emoji": "📖" }
+    },
+    "targetCities": ["乌鲁木齐", "西安", "北京", "成都", "上海", "广州", "不限"],
+    "tip": "新疆高考：传统文理分科，少数民族加分政策，内地高校有新疆协作计划专项"
+  },
+  "西藏": {
+    "key": "xizang",
+    "mode": "院校+专业 平行志愿",
+    "scoreSystem": "传统文理分科",
+    "volunteerCount": 6,
+    "subjectTypes": {
+      "science": { "label": "理科", "sublabel": "理工类", "emoji": "🔬" },
+      "arts": { "label": "文科", "sublabel": "文史类", "emoji": "📖" }
+    },
+    "targetCities": ["拉萨", "成都", "北京", "西安", "上海", "广州", "不限"],
+    "tip": "西藏高考：传统文理分科，少数民族大幅加分，内地西藏班提供更多升学机会"
+  },
+  "宁夏": {
+    "key": "ningxia",
+    "mode": "院校+专业 平行志愿",
+    "scoreSystem": "传统文理分科",
+    "volunteerCount": 6,
+    "subjectTypes": {
+      "science": { "label": "理科", "sublabel": "理工类", "emoji": "🔬" },
+      "arts": { "label": "文科", "sublabel": "文史类", "emoji": "📖" }
+    },
+    "targetCities": ["银川", "西安", "兰州", "北京", "成都", "广州", "上海", "不限"],
+    "tip": "宁夏高考：传统文理分科，考生基数小，相对录取率较高，西部大开发政策带来就业机会"
+  },
+  "青海": {
+    "key": "qinghai",
+    "mode": "院校+专业 平行志愿",
+    "scoreSystem": "传统文理分科",
+    "volunteerCount": 6,
+    "subjectTypes": {
+      "science": { "label": "理科", "sublabel": "理工类", "emoji": "🔬" },
+      "arts": { "label": "文科", "sublabel": "文史类", "emoji": "📖" }
+    },
+    "targetCities": ["西宁", "兰州", "西安", "成都", "北京", "上海", "不限"],
+    "tip": "青海高考：传统文理分科，考生基数最小，录取率全国最高，少数民族加分政策多"
+  }
+}
